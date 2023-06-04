@@ -27,8 +27,8 @@ export default function Router(){
             element: <AuthLayout />,
             children : [
                 {
-                    path :" signup",
-                    element : <Signup />
+                    path :"signup",
+                    element : <Signup />,
                 },
                 {
                     path: "login",
