@@ -1,9 +1,9 @@
 import React from 'react'
 
-const _500 = () => {
+const _500:React.FC = () => {
   return (
-    <div>_500</div>
+    <div>:React.FC</div>
   )
 }
 
-export default _500
+export default _500;
